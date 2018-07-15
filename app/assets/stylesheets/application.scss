@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+ $family-serif: "Merriweather", "Georgia", serif;
+ $family-primary: $family-serif;
+ @import "bulma";
+ .header-image {
+    background-image: url("https://images.unsplash.com/photo-1459233313842-cd392ee2c388?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4fabfc1437f1bf55ce051a8ce3efd6d4&w=1000&q=80");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+  }
